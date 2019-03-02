@@ -1,0 +1,25 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+      $lang['tParkInformation'] = 'Park info';
+      $lang['tAddPark'] = 'Add park';
+      $lang['tSearchFrom'] = 'Search By';
+	  $lang['tName'] = 'Name';
+	  $lang['tSector'] = 'Sector';
+	  $lang['tProvince'] = 'Province';
+	  $lang['tFindAPark'] = 'Find a park';
+	  $lang['tAddNewPark'] = 'Add new park';
+	  $lang['tParkName'] = 'Park name';
+	  $lang['tOtherName'] = 'Other name';
+	  $lang['tParkCode'] = 'Park code';
+	  $lang['tEditPark'] = 'Edit park';
+	  $lang['tProfilePicture'] = 'Profile picture';
+	  $lang['tGeneralInfo'] = 'General info';
+	  $lang['tProductGroup'] = 'Product group';
+	  $lang['tPackage'] = 'Package';
+	  $lang['tCode'] = 'Code';
+	  $lang['tLastEdit'] = 'Last edit';
+	  $lang['tEditedBy'] = 'Edited by';
+	  $lang['tLocationInformation'] = 'Location info';
+	  $lang['tAddLocation'] = 'Add location';
+	  $lang['tList'] = 'List';
+	  $lang['tPackageInfo'] = 'Package info';
+ ?>

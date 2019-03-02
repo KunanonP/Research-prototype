@@ -1,0 +1,34 @@
+<script type="text/javascript">
+ function test(){
+  var tPara = '{"FTCstCode":"AR001-000002","FTCstTaxNo":""}';
+        alert(tPara);
+
+        //Encrypt
+        //var tEncData = J017_GETtTransDat(tPara ,tKey ,tIV);
+        alert(tEncData);
+
+        //Call API2Member
+        var tUrl = "http://192.168.0.84:88/NationParkAPI/users";//"http://192.168.1.22/ShowDC/API2Member/API/M_PntMember";//"http://192.168.1.22/ShowDC/API2Member/Checking/Online";
+        var tEncRes = "";
+        $.ajax({
+            url: tUrl,
+            type: 'GET',
+            tryCount: 0,
+            retryLimit: 1,
+            data: {},
+            dataType: 'json',
+
+            success: function (data) {
+
+                alert(data);
+            },
+            error: function () {
+                var TextLog = '!Error: Something had error.';
+                alert(TextLog);
+            }
+        });
+ }
+</script>
+<body>
+ <button type="button" name="button" onclick="test()">Call Me</button>
+</body>

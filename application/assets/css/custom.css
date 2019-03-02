@@ -1,0 +1,17 @@
+/*.btn-success{
+  background: #000000;
+}*/
+button {
+    cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+body {
+    background-color: #FFFFE0;
+}
+
+.fb:hover{
+  opacity: 0.9;
+}
