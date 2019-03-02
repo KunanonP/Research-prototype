@@ -29,5 +29,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 
 /application/config/config.php
-/applicaiton/config/database.php
+/application/config/database.php
 /application/controllers/paypal.php
