@@ -10,10 +10,10 @@
 Testing on local server using XAMPP application
 
 * copy folder every folder to your apache server
-(*if you use XAMPP you can copy rp folder to C:xampphtdocs*)
+(*if you use XAMPP you can copy rp folder to C:xampp/htdocs*)
 
 * copy folder rp_db to your MySQL database server
-(if you use XAMPP you can copy rp_db folder to C:xamppmysqldata)
+(if you use XAMPP you can copy rp_db folder to C:xampp/mysql/data)
 
 # Configuration
 
