@@ -16,16 +16,16 @@ Testing on local server using XAMPP application
 (if you use XAMPP you can copy rp_db folder to C:xamppmysqldata)
 
 # Configuration
-Apache configuration
-in "application/config/config.php"
 
 ## change the configuration with your own URL
+Apache configuration in "application/config/config.php"
 
 for example
 `--> $config['base_url'] = http://localhost/rp/;`
-- Database configuration in application/config/database.php
+
 
 ## change the configuration with your own database credential
+Database configuration in application/config/database.php
 
 for example
 `--> 'hostname' => 'localhost',`
