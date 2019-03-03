@@ -1,50 +1,56 @@
-Requirement
-computer with Microsoft Windows operating system
-Apache server
-MySQL database server
+# Requirement
+
+* computer with Microsoft Windows operating system
+* Apache server
+* MySQL database server
 (Both Apache server and MySQL can be used XAMPP application to run simulator server)
 
-Installation
-clone project to your local platform
+# Installation
+* clone project to your local platform
 Testing on local server using XAMPP application
 
-copy folder every folder to your apache server
+* copy folder every folder to your apache server
 (*if you use XAMPP you can copy rp folder to C:xampphtdocs*)
 
-copy folder rp_db to your MySQL database server
+* copy folder rp_db to your MySQL database server
 (if you use XAMPP you can copy rp_db folder to C:xamppmysqldata)
 
-Configuration
+# Configuration
 Apache configuration
-in "applicationconfigconfig.php"
+in "application/config/config.php"
 
-change the configuration with your own URL at
+## change the configuration with your own URL
 
-such as
+for example
+`--> $config['base_url'] = http://localhost/rp/;`
+- Database configuration in application/config/database.php
 
---> $config['base_url'] = http://localhost/rp/;
-Database configuration
-in rpapplicationconfigdatabase.php
+## change the configuration with your own database credential
 
-change the configuration with your own database credential at
+for example
+`--> 'hostname' => 'localhost',`
+`'username' => 'root',`
+`'password' => '1234',`
+`'database' => 'rp_db',`
 
-such as
+## Files naming and major dirrectory
 
---> 'hostname' => 'localhost',
-'username' => 'root', 'password' => '1234', 'database' => 'rp_db',
-Files naming and major dirrectory
 Major folder is "application"
 
-Config folder/files are used for config everything such as database, config, route, and etc.
-database.php is used for set up database connection.
-config.php is used for set up base url, security, cookies, and etc. that come with the CodeIgniter framework.
-route.php is used for set up web page route of every web page and function.
-Controllers folder/files are using 'c' following by name such as cHome.php, cRegister.php, cLogin.php, etc.
-Models folder/files are using 'm' following by model name such as mProduct.php, mCart.php, mUser.php, etc.
-Views folder/files are using 'v' following by view name such as vHome.php, vMyaccount.php, vUser.php, etc.
-OR
-you can access to my web application by http://kunanonp.azurewebsites.net/ for testing online prototype
+* Config folder/files are used for config everything such as database, config, route, and etc.
+	* database.php is used for set up database connection.
+	* config.php is used for set up base url, security, cookies, and etc. that come with the CodeIgniter framework.
+	* route.php is used for set up web page route of every web page and function.
+* Controllers folder/files are using 'c' following by name such as cHome.php, cRegister.php, cLogin.php, etc.
+* Models folder/files are using 'm' following by model name such as mProduct.php, mCart.php, mUser.php, etc.
+* Views folder/files are using 'v' following by view name such as vHome.php, vMyaccount.php, vUser.php, etc.
+
+# Online Prototype
+Access to my web application by http://kunanonp.azurewebsites.net/ for testing online prototype
 
 
+# Protoype documents
+        
+* [Prototype report.pdf](https://github.com/KunanonP/Research-prototype/blob/master/prototype%20report%20documents/Report.pdff)
 
-[Intro.pdf](https://github.com/KunanonP/Research-prototype/blob/master/prototype%20report%20documents/presentation.pdf)
+* [Prototype summary.pdf](https://github.com/KunanonP/Research-prototype/blob/master/prototype%20report%20documents/presentation.pdf)
