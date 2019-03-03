@@ -7,8 +7,6 @@ Requirement
 (*Both Apache server and MySQL can be used XAMPP application to run simulator server*)
 
 
-
-
 --------------------------------------------
 Installation
 --------------------------------------------
@@ -65,15 +63,10 @@ Major folder is "application"
     - database.php is used for set up database connection.
     - config.php is used for set up base url, security, cookies, and etc. that come with the CodeIgniter framework.
     - route.php is used for set up web page route of every web page and function.
+				
 - Controllers folder/files are using 'c' following by name such as cHome.php, cRegister.php, cLogin.php, etc.
 - Models folder/files are using 'm' following by model name such as mProduct.php, mCart.php, mUser.php, etc.
 - Views folder/files are using 'v' following by view name such as vHome.php, vMyaccount.php, vUser.php, etc.
-
---------------------------------------------
-
-
-
-
 
 --------------------------------------------
 
@@ -86,3 +79,5 @@ you can access to my web application by http://kunanonp.azurewebsites.net/ for t
 
 
 --------------------------------------------
+
+
