@@ -11,6 +11,10 @@
 - Online payment methods.
 	- Connect to Paypal (sandbox).
 - Orders generator.
+- Admin zone
+	- allow authorized admin to access to user confidential (such as Purchase history, contact details, etc.)
+- Customer accessibility
+	- Only access to their contact details and purchas history
 
 # Requirement
 
