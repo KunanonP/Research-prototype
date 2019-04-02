@@ -1,3 +1,17 @@
+# Features
+- Recommendation system 
+ 	- Content-Based recommendation 
+  		- Purchase history 
+ 	- Addition 
+  		- Rating, 
+  		- Visiting history, 
+  		- Keyword search method
+- Interactive interface. 
+- Visualization of order processing. 
+- Online payment methods.
+	- Connect to Paypal (sandbox).
+- Orders generator.
+
 # Requirement
 
 * computer with Microsoft Windows operating system
