@@ -6,15 +6,21 @@
   		- Rating, 
   		- Visiting history, 
   		- Keyword search method
+- Represent recommended product.
 - Interactive interface. 
 - Visualization of order processing. 
 - Online payment methods.
 	- Connect to Paypal (sandbox).
 - Orders generator.
 - Admin zone
-	- allow authorized admin to access to user confidential (such as Purchase history, contact details, etc.)
+	- Allow authorized admin to access to user confidential (such as access to purchase history and report, contact details, etc.)
+	- Add, remove, and edit.
+	- Register, sign in and sign out
 - Customer accessibility
 	- Only access to their contact details and purchas history
+	- Register, sign in and sign out
+	- Make purchase order by using PayPal sandbox's account or mocking number of Credit card for testing
+- Product searching
 
 # Requirement
 
