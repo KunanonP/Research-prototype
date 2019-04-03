@@ -69,9 +69,6 @@ Major folder is "application"
 * Models folder/files are using 'm' following by model name such as mProduct.php, mCart.php, mUser.php, etc.
 * Views folder/files are using 'v' following by view name such as vHome.php, vMyaccount.php, vUser.php, etc.
 
-# Online Prototype
-Access to my web application by http://kunanonp.azurewebsites.net/ for testing online prototype
-
 
 # Protoype documents
         
